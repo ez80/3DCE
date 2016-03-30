@@ -1,5 +1,5 @@
-*.lnk
-build/THREEDEE.8xp
-*.obj
-camera.src
-*.src
+*.bat
+Linkcmd
+Makefile
+*.8xp
+lib.lnk
