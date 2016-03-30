@@ -17,7 +17,13 @@
 
 //We used a Vector3 Library found online @ http://kixor.net/dev/vector3/
 #include <Vector3.h>
+
+//Include our different objects for the scene
+#include <camera.c>
+#include <mesh.c>
+
 void gameLoop(void);
+
 /* Other available headers */
 // stdarg.h, setjmp.h, assert.h, ctype.h, float.h, iso646.h, limits.h, errno.h
 

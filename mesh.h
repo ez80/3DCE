@@ -16,9 +16,13 @@
 #include <lib/ce/fileioc.h>
 
 #include <Vector3.h>
-struct Camera
-{
-	vector3 position;
-	vector3 target;
-};
 
+typedef struct Mesh
+{
+	String Name;
+	vector3[] Verticies;
+	vector3 position;
+	vector3 rotation;
+} Mesh;
+
+Mesh* Mesh_create(const char* name, uint8_t verticesCount);

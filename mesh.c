@@ -16,9 +16,11 @@
 #include <lib/ce/fileioc.h>
 
 #include <Vector3.h>
-struct Camera
-{
-	vector3 position;
-	vector3 target;
-};
+#include <mesh.h>
 
+Mesh* Mesh_create(const char* name, uint8_t verticesCount) {
+	Mesh* m = malloc(verticesCount * sizeof(Mesh));
+	/*
+	m.Verticies = Vector3[verticiesCount];*/
+	return m;
+}

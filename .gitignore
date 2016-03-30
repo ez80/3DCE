@@ -1,2 +1,5 @@
 *.lnk
 build/THREEDEE.8xp
+*.obj
+camera.src
+*.src
